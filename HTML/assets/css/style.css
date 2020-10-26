@@ -1,0 +1,100 @@
+/*
+    Estilos da pagina index.html
+*/
+
+.center {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center ;
+    align-items: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+#menu li {
+    display: inline;
+    padding: 30px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    opacity: inherit;
+}
+
+#menu li a:hover{
+    color: green;
+}
+
+.p-30{
+    padding: 30px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh-300{
+    width: 300px;
+    height: 300px;
+}
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.top-local {
+    top: 0;
+}
+.w3-top {
+    top: 0;
+}
+.w3-top, .w3-bottom {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.w3-card, .w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.w3-white, .w3-hover-white:hover {
+    color: #000!important;
+    background-color: #fff!important;
+}
+.w3-padding {
+    padding: 8px 16px!important;
+}
+.w3-card, .w3-card-2 {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.w3-bar {
+    width: 100%;
+    overflow: hidden;
+}
+.w3-wide {
+    letter-spacing: 4px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/*
+    Estilos da pagina contato.html
+*/
+
+.margem-lateral{
+    margin-left: 50 px;
+}
